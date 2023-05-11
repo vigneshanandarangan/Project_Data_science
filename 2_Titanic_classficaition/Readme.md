@@ -148,9 +148,9 @@ The Survived variable is the outcome or dependent variable. The datatype is 1 if
 
 
 
-![image.png](attachment:3e3df65e-c777-42aa-bb88-dc5cb5a00037.png)
+![image.png](/images/2_Titanic_classficaition/3e3df65e-c777-42aa-bb88-dc5cb5a00037.png)
 
-![image.png](attachment:8fe0580f-1d6e-42c2-a1d7-d90a180c1ba0.png)
+![image.png](/images/2_Titanic_classficaition/8fe0580f-1d6e-42c2-a1d7-d90a180c1ba0.png)
 
 #### 3.4 Data Pre-processing:
 
@@ -171,57 +171,57 @@ After cleaning and organizing the data, it is important to explore it in order t
 
 There are many outliers present in Continuous variables
 
-![image.png](attachment:1f9e8aea-3991-4e43-a90a-40e81db5d430.png)
+![image.png](/images/2_Titanic_classficaition/1f9e8aea-3991-4e43-a90a-40e81db5d430.png)
 
 - Lower Fare mostly Dead
 - Travelling alone mostly dead
 
-![image.png](attachment:95dc0798-680e-4635-a9fc-8b5a98675682.png)
+![image.png](/images/2_Titanic_classficaition/95dc0798-680e-4635-a9fc-8b5a98675682.png)
 
 
 
 Looking at individual features by survival:
 
-![image.png](attachment:aed7c2f2-eddd-47bb-a514-6e3c8c11208f.png)
+![image.png](/images/2_Titanic_classficaition/aed7c2f2-eddd-47bb-a514-6e3c8c11208f.png)
 
 
-![image.png](attachment:b2c69104-a335-43f0-a080-636adcf2686c.png)
+![image.png](/images/2_Titanic_classficaition/b2c69104-a335-43f0-a080-636adcf2686c.png)
 
 Graph distribution of qualitative data: Pclass
 
-![image.png](attachment:a5376ef1-066d-4dc2-be37-7c4981e0ae13.png)
+![image.png](/images/2_Titanic_classficaition/a5376ef1-066d-4dc2-be37-7c4981e0ae13.png)
 
 we know Gender plays huge role in survival, now let's compare sex and a 2nd feature
 
-![image.png](attachment:936351d7-2e03-4538-b926-33e80dac9d51.png)
+![image.png](/images/2_Titanic_classficaition/936351d7-2e03-4538-b926-33e80dac9d51.png)
 
 
 - how does family size factor with sex & survival compare
 
 - how does class factor with sex & survival compare
 
-![image.png](attachment:864a6781-23cd-453c-89ed-b843c647d6d8.png)
+![image.png](/images/2_Titanic_classficaition/864a6781-23cd-453c-89ed-b843c647d6d8.png)
 
 how does embark port factor with class, sex, and survival compare
 
-![image.png](attachment:99e78fe1-71db-4cef-93b2-b26eaa71f6cc.png)
+![image.png](/images/2_Titanic_classficaition/99e78fe1-71db-4cef-93b2-b26eaa71f6cc.png)
 
 
 #plot distributions of age of passengers who survived or did not survive
 
-![image.png](attachment:944636e4-88df-4f3f-9115-42c67387b754.png)
+![image.png](/images/2_Titanic_classficaition/944636e4-88df-4f3f-9115-42c67387b754.png)
 
 Histogram comparison of sex, class, and age by survival:
 
-![image.png](attachment:0c4d8968-228f-4657-8926-11edd3583895.png)
+![image.png](/images/2_Titanic_classficaition/0c4d8968-228f-4657-8926-11edd3583895.png)
 
 Pairplot to see the entire dataset:
 
-![image.png](attachment:7c3b6f51-e14a-4df4-a954-805ea1466fd6.png)
+![image.png](/images/2_Titanic_classficaition/7c3b6f51-e14a-4df4-a954-805ea1466fd6.png)
 
 Heatmap of the entire dataset:
 
-![image.png](attachment:d1b0169d-543a-43b2-bf02-2a0a2431dfa9.png)
+![image.png](/images/2_Titanic_classficaition/d1b0169d-543a-43b2-bf02-2a0a2431dfa9.png)
 
 ### Step 5 Data Modelling
 
@@ -243,28 +243,28 @@ Some Machine Learning Classification Algorithms:
 Deciding on which model to use is never a straight answer. In practice, best approach is to work on different algorithms and then compare their performace. Below I summarized the models I worked with, and their performances:
 
 
-![image.png](attachment:08dfcf1b-f062-4bb4-8ec2-b15013b62e10.png)
+![image.png](/images/2_Titanic_classficaition/08dfcf1b-f062-4bb4-8ec2-b15013b62e10.png)
 
 Then let's see the barplot showing the accuracy score Train & test dataset:
 
 
 
-![image.png](attachment:f9e6114f-acc8-413d-a346-faec7ca747b2.png)
+![image.png](/images/2_Titanic_classficaition/f9e6114f-acc8-413d-a346-faec7ca747b2.png)
 
 ### Step 6 Evaluate Model Performance
 
 After some data pre-processing, analysis, and machine learning algorithms (MLA), I was able to predict passenger survival with ~81% accuracy. 
 
-![image.png](attachment:e6d2bc0c-c748-4275-b15d-1723f25f9404.png)
+![image.png](/images/2_Titanic_classficaition/e6d2bc0c-c748-4275-b15d-1723f25f9404.png)
 
 
 The confusion matrix without normalization:
 
-![image.png](attachment:a1283ef3-9649-4d64-8ac6-397f81c2e8f6.png)
+![image.png](/images/2_Titanic_classficaition/a1283ef3-9649-4d64-8ac6-397f81c2e8f6.png)
 
 Confusion matrix with normalization:
 
-![image.png](attachment:35ac3abf-406c-4d53-ae8e-5ac4d75ea05a.png)
+![image.png](/images/2_Titanic_classficaition/35ac3abf-406c-4d53-ae8e-5ac4d75ea05a.png)
 
 ### Step 7 Model Performance with Cross-Validation 
 
@@ -289,11 +289,11 @@ why choose one model, when you can pick them all with voting classifier
 
 voting classifier before optimization:
 
-![image.png](attachment:9c16a974-1a49-4a10-96d0-3d386a7a9ff9.png)
+![image.png](/images/2_Titanic_classficaition/9c16a974-1a49-4a10-96d0-3d386a7a9ff9.png)
 
 voting classifier after optimization:
 
-![image.png](attachment:d26c5e00-ce3b-40c1-9a2b-bfd04d5f2b47.png)
+![image.png](/images/2_Titanic_classficaition/d26c5e00-ce3b-40c1-9a2b-bfd04d5f2b47.png)
 
 ### Step 9 Explaining Model Predictions with SHAP Values
 
@@ -304,24 +304,24 @@ voting classifier after optimization:
 Note: Since voting classifiers cannot use SHAP, we used the XGB model to explain the model's predictions.
 
 
- ![image.png](attachment:2032dab5-1ddf-490f-8b0c-1c8e0ea299a6.png)
+ ![image.png](/images/2_Titanic_classficaition/2032dab5-1ddf-490f-8b0c-1c8e0ea299a6.png)
 
 
 Sample value from train set
 
 Males in third class, and that the predicate is did not survive the sinking of the Titanic
 
-![image.png](attachment:dd929ba4-5f77-41b4-a43e-081d8eb78a53.png)
+![image.png](/images/2_Titanic_classficaition/dd929ba4-5f77-41b4-a43e-081d8eb78a53.png)
 
 Females in first class,and that the predicate is survived the disaster
 
-![image.png](attachment:45975635-796d-4e20-b627-f4226c00a999.png)
+![image.png](/images/2_Titanic_classficaition/45975635-796d-4e20-b627-f4226c00a999.png)
 
 ### Conclusion
 
 The model achieved an accuracy of about 78% when predicting the outcomes of unseen data.
 
-![image.png](attachment:30adada4-949c-474e-9eb5-e40a243d2e7d.png)
+![image.png](/images/2_Titanic_classficaition/30adada4-949c-474e-9eb5-e40a243d2e7d.png)
 
 ### References
 I would like to thank the following resources and developers:
