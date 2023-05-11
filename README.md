@@ -1,7 +1,5 @@
 # Data Science Projects Portfolio
 
-## Index
-
 This repository holds the below projects. Currently they're binned in five different projects
 
 1. [Credit card Classification](https://github.com/vignesh0116/Project_Data_science/blob/master/1_credit_card_classfication/Readme.md)
