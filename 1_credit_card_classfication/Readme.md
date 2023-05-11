@@ -135,7 +135,7 @@ pd.set_option('display.max_rows', 30)
 
 The default payment next month variable is the outcome or dependent variable. The datatype is 1 if the customer default and 0 if they did not default. The rest of the variables are independent variables. Most variable names are self explanatory but a couple may be worth mentioning. The LIMIT_BAL represents Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.Pay_6 to Pay_0 is the History of past payment. We tracked the past monthly payment records (from April to September, 2005).similarly for BILL_AMT & PAY_AMT columns respectively.
 
-![image.png](attachment:a46ca2ee-ace7-493d-bc89-a96123207b49.png)
+![image.png](/imagesfile/tree/main/1_credit_card_classfication/a46ca2ee-ace7-493d-bc89-a96123207b49.png)
 
 ![image.png](attachment:29824355-38b5-4e02-a987-7af61b14a351.png)
 
