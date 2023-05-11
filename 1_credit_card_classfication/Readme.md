@@ -137,17 +137,17 @@ The default payment next month variable is the outcome or dependent variable. Th
 
 ![image.png](/images/1_credit_card_classfication/a46ca2ee-ace7-493d-bc89-a96123207b49.png)
 
-![image.png](attachment:29824355-38b5-4e02-a987-7af61b14a351.png)
+![image.png](/images/1_credit_card_classfication/29824355-38b5-4e02-a987-7af61b14a351.png)
 
-![image.png](attachment:f813f3f5-b78b-4efb-8aae-72761f96817c.png)
+![image.png](/images/1_credit_card_classfication/f813f3f5-b78b-4efb-8aae-72761f96817c.png)
 
 Check for missing values
 
-![image.png](attachment:a5728728-e35e-40fd-9f36-afb9f5072d41.png)
+![image.png](/images/1_credit_card_classfication/a5728728-e35e-40fd-9f36-afb9f5072d41.png)
 
 Ratio between Male and female (1 = male; 2 = female)
 
-![image.png](attachment:f2eb6ec4-2b3d-4e6d-a4ae-50bd834eed25.png)
+![image.png](/images/1_credit_card_classfication/f2eb6ec4-2b3d-4e6d-a4ae-50bd834eed25.png)
 
 #### 3.3 Data Pre-processing:
 
@@ -163,13 +163,13 @@ To change the columns accordingly to respective month to get clear idea of what 
 - Rename the Target column to avoid space/column length
 
 
-![image.png](attachment:900ee1d7-27a6-47b9-908a-5d56cd3ab489.png)
+![image.png](/images/1_credit_card_classfication/900ee1d7-27a6-47b9-908a-5d56cd3ab489.png)
 
-![image.png](attachment:d144beb7-6c93-4b2d-9457-36f935414363.png)
+![image.png](/images/1_credit_card_classfication/d144beb7-6c93-4b2d-9457-36f935414363.png)
 
 Rounding the value to four categories to understand easily
 
-![image.png](attachment:01b08bff-6980-4418-ae1a-0b24229b2e85.png)
+![image.png](/images/1_credit_card_classfication/01b08bff-6980-4418-ae1a-0b24229b2e85.png)
 
 ### Step 4 Explanatory Data Analysis
 
@@ -178,33 +178,33 @@ Rounding the value to four categories to understand easily
 - Married person get defaulted than single 
 
 
-![image.png](attachment:659879ca-349e-407c-9eb7-106987730533.png)
+![image.png](/images/1_credit_card_classfication/659879ca-349e-407c-9eb7-106987730533.png)
 
 Male at all age bins get defaulted than Female
 as we seen above married male gets default than married female
-![image.png](attachment:4b7483a7-54fc-4e04-9293-169c068718c9.png)
+![image.png](/images/1_credit_card_classfication/4b7483a7-54fc-4e04-9293-169c068718c9.png)
 
 As we seen below low limit score mostly to get default  
 
-![image.png](attachment:899a38be-d393-4bdd-9d4e-9001ed0a4217.png)
+![image.png](/images/1_credit_card_classfication/899a38be-d393-4bdd-9d4e-9001ed0a4217.png)
 
 
 Pay_september status > 2 mostly gets defaulted 
 
-![image.png](attachment:64e3bca0-d610-4c5c-8d4c-6bd430d6ebf3.png)
+![image.png](/images/1_credit_card_classfication/64e3bca0-d610-4c5c-8d4c-6bd430d6ebf3.png)
 
 Predicting the Good feature for our model using ANOVA for All features vs Target. Pay_status features will impact more than others lets compare later with feature importance 
  
 
-![image.png](attachment:b6cbf69b-6a6c-430b-a678-2022588d5901.png)
+![image.png](/images/1_credit_card_classfication/b6cbf69b-6a6c-430b-a678-2022588d5901.png)
 
 Top 25% feature are listed below to get good output
 
-![image.png](attachment:d85e6a1a-a66b-4ef0-aca9-f9c36c374d13.png)
+![image.png](/images/1_credit_card_classfication/d85e6a1a-a66b-4ef0-aca9-f9c36c374d13.png)
 
 Heatmap of the entire dataset:
 
-![image.png](attachment:e75ceefe-719c-4fda-b278-6f2d1ee35c2d.png)
+![image.png](/images/1_credit_card_classfication/e75ceefe-719c-4fda-b278-6f2d1ee35c2d.png)
 
 ### Step 5 Data Modelling
 
@@ -218,25 +218,25 @@ Below Machine Learning Classification Algorithms used to predict output:
 
 AUC score for Logistic Regression algorithm:
 
-![image.png](attachment:98b0a1e8-1b5a-48e1-8efe-76ed9dd0c719.png)
+![image.png](/images/1_credit_card_classfication/98b0a1e8-1b5a-48e1-8efe-76ed9dd0c719.png)
 
 The confusion matrix:
 
-![image.png](attachment:503e517b-36a7-4fc7-9457-8a810a565f07.png)
+![image.png](/images/1_credit_card_classfication/503e517b-36a7-4fc7-9457-8a810a565f07.png)
 
-![image.png](attachment:f62349af-1e5d-4aaa-8fea-aad3ad5d0f35.png)
+![image.png](/images/1_credit_card_classfication/f62349af-1e5d-4aaa-8fea-aad3ad5d0f35.png)
 
 A poor Precision recall and ROC curve
 
-![image.png](attachment:ad5e908b-035b-495e-b301-36a2976381c7.png)
+![image.png](/images/1_credit_card_classfication/ad5e908b-035b-495e-b301-36a2976381c7.png)
 
-![image.png](attachment:d3aca925-2820-4212-8fce-e1bdd23b4623.png)
+![image.png](/images/1_credit_card_classfication/d3aca925-2820-4212-8fce-e1bdd23b4623.png)
 
 #### 5.2 Tune Model with Hyper-Parameters for XGBClassifier
 
 Best Model Performance with Cross-Validation for XGBClassifier is 0.74 AUC
 
-![image.png](attachment:a8d60118-6e48-4e15-8878-4b75970a4e0a.png)
+![image.png](/images/1_credit_card_classfication/a8d60118-6e48-4e15-8878-4b75970a4e0a.png)
 
 #### 5.3 Explaining Model Predictions with SHAP Values
 
@@ -245,38 +245,38 @@ contribution of each feature value to the prediction for a sample. Negative SHAP
 These represent the values of the features for each sample, with red meaning a higher value and blue lower. So, for example, we can see in the Pay_september column the highest SHAP values come
 from high feature values (red dots). Pay_sept > 2 mostly get default list  
 
-![image.png](attachment:8d9dc1e8-ddac-47b9-9e86-6f4658debb65.png)
+![image.png](/images/1_credit_card_classfication/8d9dc1e8-ddac-47b9-9e86-6f4658debb65.png)
 
 #comparing ANOVA F-value with Top 25% features & SHAP summart plot
 
 - Statistical test and shap plot shows same result 
 - Important features are "PAY_September", "LIMIT_BAL", "PAY_August", "BILL_AMT_September"
 
-![image.png](attachment:f8e6514a-8ba1-4a6d-8a9a-25bce7cd4b78.png)
+![image.png](/images/1_credit_card_classfication/f8e6514a-8ba1-4a6d-8a9a-25bce7cd4b78.png)
 
 
-![image.png](attachment:2722a64d-be1f-46bb-bb5e-5c296f03949a.png)
+![image.png](/images/1_credit_card_classfication/2722a64d-be1f-46bb-bb5e-5c296f03949a.png)
 
 #### 5.4 Tune Model with Feature Selection
 
 As we seen in above graph value of Pay_sept & Pay_Aug gets higher mostly likely to get defaulted. Lower value for limit_bal move towards default list
 
-![image.png](attachment:fba121b2-22d2-40ce-976c-d1a7f57f15e8.png)
+![image.png](/images/1_credit_card_classfication/fba121b2-22d2-40ce-976c-d1a7f57f15e8.png)
 
-![image.png](attachment:2a6e8c59-d3ba-4190-bf71-928f79e25f82.png)
+![image.png](/images/1_credit_card_classfication/2a6e8c59-d3ba-4190-bf71-928f79e25f82.png)
 
 Lower limit_bal with Pay_sept >0 will mostly be default
 
 
-![image.png](attachment:db6d69bf-8f7a-4a10-b4a8-ceb245702c5b.png)
+![image.png](/images/1_credit_card_classfication/db6d69bf-8f7a-4a10-b4a8-ceb245702c5b.png)
 
 Below graph clearly can be seen Limit_bal <200000 mostly fall in Pay_sept[1-8] will get defaulted
 
-![image.png](attachment:4e4d3dfa-0eb1-4705-a649-dfdace4c8142.png)
+![image.png](/images/1_credit_card_classfication/4e4d3dfa-0eb1-4705-a649-dfdace4c8142.png)
 
 Similar below graph shows same as Pay_sept & Pay_Aug(past month)
 
-![image.png](attachment:6ea6b4a4-0314-46e3-b003-75a2c8a69aa9.png)
+![image.png](/images/1_credit_card_classfication/6ea6b4a4-0314-46e3-b003-75a2c8a69aa9.png)
 
 ### Step 6 Predicting Test dataset
 
@@ -284,24 +284,24 @@ Similar below graph shows same as Pay_sept & Pay_Aug(past month)
 
 According to the model, most borrowers have a 0-20% chance of default.
 
-![image.png](attachment:4620c5a1-ba70-4b2d-afe0-1f64da0cbbcf.png)
+![image.png](/images/1_credit_card_classfication/4620c5a1-ba70-4b2d-afe0-1f64da0cbbcf.png)
 
 Default risk increases with each decile,where the riskiest 10% of borrowers have a default rate close to 70%, but the least risky are below 10%. When a model is able to effectively distinguish groups of
 borrowers with consistently increasing default risk, the model is said to slope the population being examined.
 
 Notice also that the default rate is relatively flat across the lowest 5 to 7 deciles, likely because these observations are mostly clustered in the range [0, 0.2] of predicted risk
 
-![image.png](attachment:669ec44c-716b-48e9-a2e8-0c3e6dd36cbf.png)
+![image.png](/images/1_credit_card_classfication/669ec44c-716b-48e9-a2e8-0c3e6dd36cbf.png)
 
 #### 6.2 Calibration of Predicted Probabilities
 
 Below value started to increase our model becoming less calibrated 
 
-![image.png](attachment:359e482a-219c-4c17-aacc-6974afc4503f.png)
+![image.png](/images/1_credit_card_classfication/359e482a-219c-4c17-aacc-6974afc4503f.png)
 
 Below graph shows that model-predicted probabilities are very close to the true default rates, so the model appears to be well calibrated.
 
-![image.png](attachment:a8a1765b-4299-4c7f-b745-8fb97ba88b0a.png)
+![image.png](/images/1_credit_card_classfication/a8a1765b-4299-4c7f-b745-8fb97ba88b0a.png)
 
 #### 6.3 Financial Analysis
 
@@ -312,7 +312,7 @@ somewhere in the range of about 0.25 to 0.5.
 
 max_savings we get $13,836,743.7 at Threshold set to 0.32
 
-![image.png](attachment:9c1276b9-96f3-439a-a35a-3bccdb0dff56.png)
+![image.png](/images/1_credit_card_classfication/9c1276b9-96f3-439a-a35a-3bccdb0dff56.png)
 
 - Cost of all defaults if there were no counseling program is $61,786,034
 
@@ -323,15 +323,15 @@ max_savings we get $13,836,743.7 at Threshold set to 0.32
 
 Net savings per account against the cost of counseling per account for each threshold
 
-![image.png](attachment:6d2355a1-b278-4e27-8b8f-ca4642954d4c.png)
+![image.png](/images/1_credit_card_classfication/6d2355a1-b278-4e27-8b8f-ca4642954d4c.png)
 
 Fraction of accounts predicted as positive (this is called the "flag rate") at each threshold. Set the optimal threshold of 0.32, only about 20% of accounts will be flagged for counseling.
 
-![image.png](attachment:cf6a7613-6a28-457c-8ca3-3b99db8ae491.png)
+![image.png](/images/1_credit_card_classfication/cf6a7613-6a28-457c-8ca3-3b99db8ae491.png)
 
 precision and recall separately on the y-axis against threshold on the x-axis. It shows as same optimal threshold will be 0.32
 
-![image.png](attachment:dc8e415b-b163-4549-b19f-688d9254542c.png)
+![image.png](/images/1_credit_card_classfication/dc8e415b-b163-4549-b19f-688d9254542c.png)
 
 ### Conclusion
 
