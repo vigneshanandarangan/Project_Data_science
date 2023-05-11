@@ -76,35 +76,35 @@ from sklearn.metrics import accuracy_score,precision_score,recall_score,f1_score
 
 Red Wine
 
-![image.png](attachment:b2f00e2c-b6e8-46cd-8940-4350b78843c1.png)
+![image.png](/images/3_Wine_EDA/b2f00e2c-b6e8-46cd-8940-4350b78843c1.png)
 
-![image.png](attachment:671a6471-9bc5-4169-be0b-a6cca40e2ef8.png)
+![image.png](/images/3_Wine_EDA/671a6471-9bc5-4169-be0b-a6cca40e2ef8.png)
 
 White Wine
 
-![image.png](attachment:3762bf22-d0f0-466d-a9af-4f023f901aea.png)
+![image.png](/images/3_Wine_EDA/3762bf22-d0f0-466d-a9af-4f023f901aea.png)
 
-![image.png](attachment:9652406b-ada9-48a5-af54-819a0e7d4141.png)
+![image.png](/images/3_Wine_EDA/9652406b-ada9-48a5-af54-819a0e7d4141.png)
 
 #### 3.2 Nulls Check and Cleaning
 
 Red & White wines have zero null values
 
 
-![image.png](attachment:68d33f96-4f95-487f-90d3-5bc3357f2ca6.png)
+![image.png](/images/3_Wine_EDA/68d33f96-4f95-487f-90d3-5bc3357f2ca6.png)
 
 ### Step 4 Explanatory Data Analysis
 
 majority of the red wine belongs to the group with quality labels 5 and 6
 
-![image.png](attachment:dec1af30-52d3-462c-8ac6-ea26d1973696.png)
+![image.png](/images/3_Wine_EDA/dec1af30-52d3-462c-8ac6-ea26d1973696.png)
 
 - Positive correlation between fixed acidity and density.
 - Negative correlation between acidity and pH.
 - Negative correlation between alcohol percentage and density.
 
 
-![image.png](attachment:3cea0bac-10a1-4fe0-9736-49b34a09a757.png)
+![image.png](/images/3_Wine_EDA/3cea0bac-10a1-4fe0-9736-49b34a09a757.png)
 
 The quality column has a positive correlation with alcohol, sulfates, residual sugar, citric acid, and fixed acidity.
 - Alcohol is positively correlated with the quality of the red wine.
@@ -112,62 +112,62 @@ The quality column has a positive correlation with alcohol, sulfates, residual s
 - Citric acid and density have a strong positive correlation with fixed acidity.
 - pH has a negative correlation with density, fixed acidity, citric acid, and sulfates.
 
-![image.png](attachment:9375605b-ef60-415d-84bc-d9217a9dff16.png)
+![image.png](/images/3_Wine_EDA/9375605b-ef60-415d-84bc-d9217a9dff16.png)
 
 Alcohol distribution is positively skewed with the quality  of the red wine.
 
-![image.png](attachment:79470f92-28e9-4bea-a739-253e549f96bc.png)
+![image.png](/images/3_Wine_EDA/79470f92-28e9-4bea-a739-253e549f96bc.png)
 
 The output verifies that alcohol is positively skewed. That gives deeper insight into the alcohol column.
 
-![image.png](attachment:c2fbc209-4724-4197-838c-d5eea34abdd1.png)
+![image.png](/images/3_Wine_EDA/c2fbc209-4724-4197-838c-d5eea34abdd1.png)
 
 
 
 Boxplot helps to display the outlier here quality 5 has more outlier than others
 
-![image.png](attachment:9c6aa54d-5b07-4c91-b177-a7d8ea99419e.png)
+![image.png](/images/3_Wine_EDA/9c6aa54d-5b07-4c91-b177-a7d8ea99419e.png)
 
 Alcohol is weakly positively related to the pH values.
 
-![image.png](attachment:8804e4d3-19b3-4290-858e-1f07e7312351.png)
+![image.png](/images/3_Wine_EDA/8804e4d3-19b3-4290-858e-1f07e7312351.png)
 
 
 Combining Red & White wine dataset and labled the quality as "Low", "Medium & "High".
 
-![image.png](attachment:77c9afbd-7c9f-4f71-b01b-2bd9a0142edc.png)
+![image.png](/images/3_Wine_EDA/77c9afbd-7c9f-4f71-b01b-2bd9a0142edc.png)
 
 
 We have grouped the dataset into three distinct groups: low-quality wine, medium-quality wine, and high-quality wine. Each group shows three different attributes: alcohol, density, and pH value
 
 
-![image.png](attachment:16a7d5c2-6a5a-4331-a39b-9adf2e4be5ad.png)
+![image.png](/images/3_Wine_EDA/16a7d5c2-6a5a-4331-a39b-9adf2e4be5ad.png)
 
 #### 4.1 Univariate analysis
 
 Visualize the numeric data and their distribution is by using a histogram.
 
-![image.png](attachment:d827b9a9-1043-4c54-abaf-de87a3c5694a.png)
+![image.png](/images/3_Wine_EDA/d827b9a9-1043-4c54-abaf-de87a3c5694a.png)
 
 #### 4.2 Multivariate analysis
 
 Correlation between the features, Alcohol & density have high correlation(-0.69) than others.
 
 
-![image.png](attachment:773da902-7ac3-4a24-a16a-5af3b6bde6b8.png)
+![image.png](/images/3_Wine_EDA/773da902-7ac3-4a24-a16a-5af3b6bde6b8.png)
 
 The count plot shows the frequency distributions of different categories of wine, namely 3, 4, 5, 6, 7, 8, and 9.
 
-![image.png](attachment:f39f8975-3e4f-47ef-86ed-96f77b6da50a.png)
+![image.png](/images/3_Wine_EDA/f39f8975-3e4f-47ef-86ed-96f77b6da50a.png)
 
 ### Step 5 Data Modelling
 
 The random forest, decision tree, gradient boosting classifier, and the Gaussian Naive Bayes classifier all achieved an accuracy of 100%.
 
 
-![image.png](attachment:0c39d0f7-1550-4f31-bd1a-0593d4a40f29.png)
+![image.png](/images/3_Wine_EDA/0c39d0f7-1550-4f31-bd1a-0593d4a40f29.png)
 
-![image.png](attachment:bc584f0d-c22c-4341-b9b1-67d49c272d1e.png)
+![image.png](/images/3_Wine_EDA/bc584f0d-c22c-4341-b9b1-67d49c272d1e.png)
 
 ### Conclusion
 
