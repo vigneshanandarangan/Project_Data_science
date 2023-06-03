@@ -247,7 +247,7 @@ from high feature values (red dots). Pay_sept > 2 mostly get default list
 
 ![image.png](/images/1_credit_card_classfication/8d9dc1e8-ddac-47b9-9e86-6f4658debb65.png)
 
-#comparing ANOVA F-value with Top 25% features & SHAP summart plot
+#comparing ANOVA F-value with Top 25% features & SHAP Summary plot
 
 - Statistical test and shap plot shows same result 
 - Important features are "PAY_September", "LIMIT_BAL", "PAY_August", "BILL_AMT_September"
